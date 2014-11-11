@@ -895,7 +895,12 @@ button::-moz-focus-inner {
 				width: 16px;
 				height: 1px;
 				background-color: #333333;
-			}			
+			}
+
+	.b-innovations-article .b-innovations-article-contents figure {
+		padding-bottom: 50px;
+		text-align: right;
+	}			
 
 
 		
