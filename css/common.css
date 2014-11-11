@@ -644,6 +644,35 @@ button::-moz-focus-inner {
 	padding: 36px 0 10px 336px;
 	margin: 0 0 0 -336px;
 }
+
+	.b-innovations-article-heading-section {
+		margin-bottom: 35px;
+		padding: 30px;
+		background-color: #00985f;
+	}
+
+		.b-innovations-article-heading-section .b-innovations-article-title {
+			margin-bottom: 30px;
+			font-family: "PFDinDisplayPro Light";
+			font-size: 52px;
+			line-height: 55px;
+			color: #fff;
+		}
+
+		.b-innovations-article-heading-section .b-innovations-article-description {
+			font-family: "PFDinDisplayPro";
+			font-size: 30px;
+			line-height: 36px;
+			color: #fff;
+		}
+
+	.b-innovations-article p {
+		margin-bottom: 20px;
+		font-family: "PFDinDisplayPro";
+		font-size: 16px;
+		line-height: 20px;
+		color: #333333;
+	}
 		
 .b-support-menu {
 	
