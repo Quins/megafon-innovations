@@ -808,7 +808,7 @@ button::-moz-focus-inner {
 
 	.b-innovations-article .b-innovations-article-heading-section {
 		margin-bottom: 35px;
-		padding: 30px;
+		padding: 35px 30px 50px;
 		background-color: #00985f;
 		color: #fff;
 	}
@@ -824,6 +824,28 @@ button::-moz-focus-inner {
 			font-size: 30px;
 			line-height: 36px;
 		}
+	
+	.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-trivia {
+		box-sizing: border-box;
+		display: inline-block;
+		padding: 0 13px;
+		width: 50%;
+		vertical-align: top;
+	}
+		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-left-trivia {
+			margin-left: -13px;
+		}
+
+		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-right-trivia {
+			margin-right: -13px;
+		}
+
+		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-trivia h2{
+			padding-right: 75px;
+		}			
+
+
+
 
 	.b-innovations-article .b-innovations-article-contents h2 {
 		padding-bottom: 25px;
