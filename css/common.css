@@ -811,6 +811,7 @@ button::-moz-focus-inner {
 		padding: 35px 40px 50px 25px;
 		background-color: #00985f;
 		color: #fff;
+		min-height: 240px;
 	}
 
 		.b-innovations-article .b-innovations-article-heading-section .b-innovations-article-title {
@@ -902,8 +903,151 @@ button::-moz-focus-inner {
 		text-align: right;
 	}			
 
+	.b-innovations-article .b-innovations-article-events-collection {
 
-		
+		padding: 65px 84px 0 0;
+	}
+
+		.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause {
+
+			position: relative;
+			height: 312px;
+			line-height: 312px;
+			margin: -145px 0 -45px;
+		}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause:before {
+
+				content: "";
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 50%;
+				width: 4px;
+				height: 145px;
+				margin: 0 0 0 -2px;
+				background: #d9d9d9;
+			}
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause:first-child:before {
+
+				content: none;
+				display: none;
+			}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause:after {
+
+				content: "";
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 18px;
+				height: 18px;
+				margin: -9px 0 0 -9px;
+				background: url(../i/graphics.png) -45px -265px no-repeat;
+			}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-title {
+
+				display: inline-block;
+				text-align: left;
+				font-size: 16px;
+				line-height: 20px;
+				padding: 10px 28px;
+				background: #fff;
+				border: 1px solid #c7c9ca;
+				height: 20px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin: -21px 0 0 45px;
+			}
+
+				.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-title:before {
+
+					content: "";
+					display: block;
+					width: 13px;
+					height: 22px;
+					margin: -11px 0 0 -13px;
+					position: absolute;
+					top: 50%;
+					left: 0;
+					background: url(../i/graphics.png) -75px -265px no-repeat;
+				}
+				.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-even-clause .b-innovations-article-events-collection-clause-title:before {
+
+					margin: -11px -13px 0 0;
+					left: auto;
+					right: 0;
+					background-position: -95px -265px;
+				}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-description {
+
+				display: inline-block;
+				vertical-align: middle;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				font-size: 0;
+				line-height: 0;
+				width: 50%;
+				padding: 0 45px 0 0;
+				margin: 6px 0 0;
+			}
+
+				.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-description .b-innovations-article-events-collection-clause-description-inside {
+
+					display: block;
+					text-align: left;
+					font-size: 16px;
+					line-height: 20px;
+					padding: 20px 28px;
+					background: #fff;
+					border: 1px solid #c7c9ca;
+					position: relative;
+				}
+
+					.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-description .b-innovations-article-events-collection-clause-description-inside:before {
+
+						content: "";
+						display: block;
+						width: 13px;
+						height: 22px;
+						position: absolute;
+						top: 50%;
+						right: 0;
+						margin: -11px -13px 0 0;
+						background: url(../i/graphics.png) -95px -265px no-repeat;
+					}
+					.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-even-clause .b-innovations-article-events-collection-clause-description .b-innovations-article-events-collection-clause-description-inside:before {
+
+						right: auto;
+						margin: -11px 0 0 -13px;
+						left: 0;
+						background-position: -75px -265px;
+					}
+
+		.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-even-clause {
+
+			text-align: right;
+		}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-even-clause .b-innovations-article-events-collection-clause-title {
+
+				left: auto;
+				right: 50%;
+				margin: -21px 45px 0 0;
+			}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-even-clause .b-innovations-article-events-collection-clause-description {
+
+				padding: 0 0 0 45px;
+			}
+
+				.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-even-clause .b-innovations-article-events-collection-clause-description .b-innovations-article-events-collection-clause-description-inside {}
+
 .b-support-menu {
 	
 	font-size:18px;
