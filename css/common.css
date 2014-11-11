@@ -808,7 +808,7 @@ button::-moz-focus-inner {
 
 	.b-innovations-article .b-innovations-article-heading-section {
 		margin-bottom: 35px;
-		padding: 35px 30px 50px;
+		padding: 35px 40px 50px 25px;
 		background-color: #00985f;
 		color: #fff;
 	}
