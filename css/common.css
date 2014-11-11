@@ -639,8 +639,6 @@ button::-moz-focus-inner {
 	vertical-align: top;
 	width: 306px;
 	padding: 0 30px 30px 0;
-/*	font-size: 16px;
-	line-height: 20px;*/
 	position: relative;
 }
 	
@@ -688,45 +686,111 @@ button::-moz-focus-inner {
 
 	.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu {
 
-		display: block;
 		border: 1px solid #c7c9ca;
 	}
 
 		.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause {
 
-			display: block;
-			height: 60px;
-			line-height: 60px;
-			border-top: 1px solid #c7c9ca;
 			border-bottom: 1px solid #c7c9ca;
 			margin: 0 0 -1px;
+			position: relative;
 		}
 		.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-current-clause {
 
-			position: relative;
 			background: #00985f;
-			border-top-color: #00985f;
 			border-bottom-color: #00985f;
 		}
-		.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause:first-child {
+		.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-pervasive-clause.b-innovations-navigation-section-secondary-menu-current-clause {
 
-			border-top: none;
+			border-bottom: none;
+			margin: 0;
 		}
+			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-pervasive-clause.b-innovations-navigation-section-secondary-menu-current-clause .b-innovations-navigation-section-secondary-menu-clause-link {
+
+				-moz-transition: 0s;
+				-webkit-transition: 0s;
+				-ms-transition: 0s;
+				transition: 0s;
+			}
+			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-pervasive-clause:after {
+
+				content: "";
+				background: url(../i/graphics.png) 0 -265px no-repeat;
+				position: absolute;
+				top: 30px;
+				right: 20px;
+				width: 13px;
+				height: 6px;
+				margin: -3px 0 0;
+				pointer-events: none;
+			}
+			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-pervasive-clause.b-innovations-navigation-section-secondary-menu-current-clause:after {
+
+				background-position: -20px -265px;
+			}
 
 			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause .b-innovations-navigation-section-secondary-menu-clause-link {
 
-				display: inline-block;
-				vertical-align: middle;
+				display: block;
 				padding: 0 53px 0 20px;
-				font-size: 16px;
-				line-height: 20px;
+				line-height: 60px;
 				text-decoration: none;
 				color: #000;
 			}
 
+				.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause .b-innovations-navigation-section-secondary-menu-clause-link .b-innovations-navigation-section-secondary-menu-clause-link-contents {
+
+					display: inline-block;
+					vertical-align: middle;
+					font-size: 16px;
+					line-height: 20px;
+					padding: 5px 0 0;
+				}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause .b-innovations-navigation-section-secondary-menu-clause-link:hover {
+
+				color: #00985f;
+			}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-current-clause .b-innovations-navigation-section-secondary-menu-clause-link:hover, 
 			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-current-clause .b-innovations-navigation-section-secondary-menu-clause-link {
 
 				color: #fff;
+			}
+
+	.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu {
+
+		background: #f2f2f2;
+	}
+
+		.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu .b-innovations-navigation-section-tertiary-menu-clause {
+
+			border-top: 1px solid #e8e9e9;
+			margin: -1px 0 0;
+		}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu .b-innovations-navigation-section-tertiary-menu-clause .b-innovations-navigation-section-tertiary-menu-clause-link {
+
+				display: block;
+				padding: 0 53px 0 36px;
+				line-height: 60px;
+				text-decoration: none;
+				color: #000;
+			}
+
+				.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu .b-innovations-navigation-section-tertiary-menu-clause .b-innovations-navigation-section-tertiary-menu-clause-link .b-innovations-navigation-section-tertiary-menu-clause-link-contents {
+
+					display: inline-block;
+					vertical-align: middle;
+					font-size: 16px;
+					line-height: 20px;
+					padding: 5px 0 0;
+				}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu .b-innovations-navigation-section-tertiary-menu-current-clause .b-innovations-navigation-section-tertiary-menu-clause-link, 
+			.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu .b-innovations-navigation-section-tertiary-menu-clause .b-innovations-navigation-section-tertiary-menu-clause-link:hover {
+
+				color: #00985f;
 			}
 
 .l-content-articles-section .b-innovations-article {

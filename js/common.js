@@ -2,6 +2,12 @@ $(document).ready(function() {
 
 	if($("[data-rotator]").length)
 		initializeRotators();
+
+	$("[data-toggle]").toggles({
+		"innovations-tertiary-menu": {
+			toggleOnOutsideClick: false
+		}
+	});
 });
 
 
@@ -396,6 +402,100 @@ function hurlRotator(rotatorID, articleCounter) {
 	}
 	
 }
+
+/* Toggles */
+
+(function( $ ) {
+	$.fn.toggles = function(options) {
+
+		return this.each( function() {
+
+			var toggle = {
+				descriptor: ($(this).data("toggle-descriptor") ? $(this).data("toggle-descriptor") : ""), 
+				entity: $(this), 
+				on: false, 
+				targets: []
+			};
+
+			toggle.properties = $.extend({
+				toggleOnOutsideClick: false
+			}, options[toggle.descriptor]);
+
+			$("[data-toggle-target][data-toggle-target-descriptor='" + toggle.descriptor + "']").each( function(i) {
+
+				toggle.targets[i] = {
+
+					entity: $(this),
+					toggleClass: $(this).data('toggle-target-class')
+				}
+
+				$(this).on("toggle", function(event) {
+
+					toggle.on = event.state;
+				});
+			});
+
+			toggle.entity.click( function(event) {
+
+				event.preventDefault();
+				$(document).unbind("mouseup").unbind("touchend");
+
+				$.each(toggle.targets, function(i, e) {
+
+					e.entity.toggleClass(e.toggleClass);
+				});
+
+				if (toggle.on) {
+
+					emittoggle(false);
+				} else {
+
+					emittoggle(true);
+
+					if (toggle.properties.toggleOnOutsideClick) {
+
+						$(document).on("mouseup touchend", function (event) {
+
+							var outside = 0;
+
+							$.each(toggle.targets, function(i,e) {
+
+								var container = e.entity;
+
+								if (!container.is(event.target) && container.has(event.target).length === 0) {
+
+									outside += 1;
+								}
+							});
+
+							if (outside == toggle.targets.length && !toggle.entity.is(event.target) && toggle.entity.has(event.target).length === 0) {
+
+								$.each(toggle.targets, function(i, e) {
+
+									e.entity.toggleClass(e.toggleClass);
+								});
+								emittoggle(false);
+								$(document).unbind("mouseup").unbind("touchend");
+							}
+						});
+					}
+				}
+			});
+
+			function emittoggle(state) {
+
+				var e = $.Event( "toggle" );
+				e.state = state;
+
+				$("[data-toggle-target][data-toggle-target-descriptor='" + toggle.descriptor + "']").each(function() {
+
+					$(this).trigger(e);
+				});
+			}
+		});
+	};
+})(jQuery);
+
 
 
 /* Unsorted */
