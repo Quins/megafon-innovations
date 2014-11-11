@@ -803,36 +803,79 @@ button::-moz-focus-inner {
 	width: 100%;
 	padding: 36px 0 10px 336px;
 	margin: 0 0 0 -336px;
+	font-family: "PFDinDisplayPro";
 }
 
-	.b-innovations-article-heading-section {
+	.b-innovations-article .b-innovations-article-heading-section {
 		margin-bottom: 35px;
 		padding: 30px;
 		background-color: #00985f;
+		color: #fff;
 	}
 
-		.b-innovations-article-heading-section .b-innovations-article-title {
-			margin-bottom: 30px;
+		.b-innovations-article .b-innovations-article-heading-section .b-innovations-article-title {
+			padding-bottom: 30px;
 			font-family: "PFDinDisplayPro Light";
 			font-size: 52px;
 			line-height: 55px;
-			color: #fff;
 		}
 
-		.b-innovations-article-heading-section .b-innovations-article-description {
-			font-family: "PFDinDisplayPro";
+		.b-innovations-article .b-innovations-article-heading-section .b-innovations-article-description {			
 			font-size: 30px;
 			line-height: 36px;
-			color: #fff;
 		}
 
-	.b-innovations-article p {
-		margin-bottom: 20px;
-		font-family: "PFDinDisplayPro";
+	.b-innovations-article .b-innovations-article-contents h2 {
+		padding-bottom: 25px;
+		font-size: 24px;
+		line-height: 29px;
+	}
+		.b-innovations-article .b-innovations-article-contents p+h2,
+		.b-innovations-article .b-innovations-article-contents ul+h2 {
+			padding-top: 20px;
+		}
+
+	.b-innovations-article .b-innovations-article-contents p {
+		padding-bottom: 20px;
 		font-size: 16px;
 		line-height: 20px;
 		color: #333333;
 	}
+
+	.b-innovations-article .b-innovations-article-contents a {
+		color: #008cfc;
+		text-decoration: none;
+
+	}
+		.b-innovations-article .b-innovations-article-contents a:visited {
+			color: #0088cc;
+		}
+
+		.b-innovations-article .b-innovations-article-contents a:hover {
+			color: #00985f;
+		}
+
+	.b-innovations-article .b-innovations-article-contents ul {
+		padding-left: 40px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+		.b-innovations-article .b-innovations-article-contents ul>li {
+			position: relative;
+			padding-bottom: 15px;
+		}
+			.b-innovations-article .b-innovations-article-contents ul>li:before {
+				position: absolute;
+				content: "";
+				top: 10px;
+				left: -20px;
+				width: 16px;
+				height: 1px;
+				background-color: #333333;
+			}			
+
+
 		
 .b-support-menu {
 	
