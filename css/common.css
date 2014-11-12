@@ -917,6 +917,10 @@ button::-moz-focus-inner {
 		text-align: right;
 	}
 
+	.b-innovations-article .b-innovations-article-contents img {
+		max-width: 100%;
+	}
+
 	.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section {
 
 		width: 790px;
