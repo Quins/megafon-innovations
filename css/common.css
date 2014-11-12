@@ -1497,10 +1497,9 @@ button::-moz-focus-inner {
 
 @media screen and (max-width: 1000px) {
 	
-	.l-content .l-content-articles-section {
-
-		padding: 20px;
-	}
+.l-content .l-content-articles-section {
+	padding: 0 20px;
+}
 
 	.b-innovations-sectional-previews .b-innovations-large-article {
 		
@@ -1605,6 +1604,88 @@ button::-moz-focus-inner {
 					padding: 5px 0 0;
 				}
 
+.l-content-articles-section .b-innovations-article {
+
+	padding: 0;
+	margin: 0;
+}
+
+    .b-innovations-article .b-innovations-article-heading-section {
+
+        margin: 0 0 40px;
+        padding: 20px;
+        min-height: 200px;
+    }
+
+        .b-innovations-article .b-innovations-article-heading-section .b-innovations-article-title {
+
+            font-size: 32px;
+            line-height: 38px;
+        }
+
+        .b-innovations-article .b-innovations-article-heading-section .b-innovations-article-description {
+
+            font-size: 21px;
+            line-height: 25px;
+        }
+
+    .b-innovations-article .b-innovations-article-contents {
+
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .b-innovations-article .b-innovations-article-contents h2 {
+
+        padding-bottom: 20px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .b-innovations-article .b-innovations-article-contents p {
+
+        padding-bottom: 20px;
+    }
+
+    .b-innovations-article .b-innovations-article-contents em {
+
+        padding: 10px 0 20px 30px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .b-innovations-article .b-innovations-article-contents ul {
+
+        padding-left: 20px;
+    }
+
+    .b-innovations-article .b-innovations-article-contents ul > li {
+
+            padding-bottom: 13px;
+        }
+            .b-innovations-article .b-innovations-article-contents ul > li:before {
+
+                width: 14px;
+            }
+
+    .b-innovations-article .b-innovations-article-contents p + h2,
+    .b-innovations-article .b-innovations-article-contents ul + h2,
+    .b-innovations-article .b-innovations-article-contents em + h2  {
+
+        padding-top: 5px;
+    }
+
+    .b-innovations-article .b-innovations-article-contents figure {
+		margin: 0 -20px;
+        padding-bottom: 40px;
+    }
+
+    .b-innovations-article .b-innovations-article-contents figure:last-child {
+    	padding-bottom: 0;
+    	font-size: 0;
+    	line-height: 0;
+    }
+
 }
 
 @media screen and (max-width: 780px) {
@@ -1642,6 +1723,9 @@ button::-moz-focus-inner {
 		font-size:14px;
 		line-height:18px;
 	}
+
+
+
 
 }
 
