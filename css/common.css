@@ -966,6 +966,29 @@ button::-moz-focus-inner {
 					background: #48296e;
 				}
 
+	.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-video {
+
+		padding: 0 0 25px;
+		text-align: center;
+	}
+
+		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-video .b-innovations-article-contents-video-placeholder {
+
+			display: inline-block;
+			width: auto;
+		}
+
+			.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-video .b-innovations-article-contents-video-placeholder .b-innovations-article-contents-video-placeholder-entity {
+
+				display: block;
+			}
+
+		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-video .b-innovations-article-contents-video iframe {
+
+			display: block;
+			margin: 0 auto;
+		}
+
 	.b-innovations-article .b-innovations-article-events-collection {
 
 		padding: 65px 84px 0 0;

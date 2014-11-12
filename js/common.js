@@ -472,6 +472,9 @@ function hurlRotator(rotatorID, articleCounter) {
 				targets: []
 			};
 
+			if (!options[toggle.descriptor])
+				options[toggle.descriptor] = {};
+
 			toggle.properties = $.extend({
 				toggleOnOutsideClick: false
 			}, options[toggle.descriptor]);
