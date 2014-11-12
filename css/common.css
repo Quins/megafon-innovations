@@ -159,6 +159,7 @@ button::-moz-focus-inner {
 		padding: 30px;
 		font-size: 0;
 		line-height: 0;
+		max-width: 1340px;
 	}
 	
 		.l-content .l-content-articles-section a, 
