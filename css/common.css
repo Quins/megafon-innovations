@@ -1498,7 +1498,8 @@ button::-moz-focus-inner {
 @media screen and (max-width: 1000px) {
 	
 .l-content .l-content-articles-section {
-	padding: 0 20px;
+
+	padding: 20px;
 }
 
 	.b-innovations-sectional-previews .b-innovations-large-article {
