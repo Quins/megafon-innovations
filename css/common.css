@@ -1497,6 +1497,11 @@ button::-moz-focus-inner {
 
 @media screen and (max-width: 1000px) {
 	
+	.l-content .l-content-articles-section {
+
+		padding: 20px;
+	}
+
 	.b-innovations-sectional-previews .b-innovations-large-article {
 		
 		float:none;
@@ -1514,6 +1519,92 @@ button::-moz-focus-inner {
 		
 		width:33.3%;
 	}
+
+.b-innovations-navigation-section {
+
+	display: block;
+	width: auto;
+	padding: 0 0 20px;
+	position: relative;
+}
+
+	.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection {
+
+		position: static;
+		border: 1px solid #c7c9ca;
+		background: #f2f2f2;
+		padding: 14px 20px;
+		line-height: 20px;
+		height: 20px;
+	}
+
+		.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection .b-innovations-navigation-section-breadcrumbs-collection-clause {
+
+			display: none;
+		}
+		.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection .b-innovations-navigation-section-breadcrumbs-collection-clause:before {
+
+			content: none;
+			display: none;
+		}
+		.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection .b-innovations-navigation-section-breadcrumbs-collection-clause:last-child {
+
+			display: block;
+			text-transform: none;
+			font-size: 14px;
+			line-height: 20px;
+		}
+
+				.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause .b-innovations-navigation-section-secondary-menu-clause-link .b-innovations-navigation-section-secondary-menu-clause-link-contents {
+
+					font-size: 12px;
+					line-height: 14px;
+				}
+
+	.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu {
+
+		display: none;
+		position: absolute;
+		top: 49px;
+		left: 0;
+		right: 0;
+		background: #fff;
+		border: 1px solid #c7c9ca;
+	}
+	.b-innovations-navigation-section .b-innovations-navigation-section-secondary-opened-menu {
+
+		display: block;
+	}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-pervasive-clause:after {
+
+				top: 25px;
+			}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause .b-innovations-navigation-section-secondary-menu-clause-link {
+
+				line-height: 50px;
+			}
+
+				.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause .b-innovations-navigation-section-secondary-menu-clause-link .b-innovations-navigation-section-secondary-menu-clause-link-contents {
+
+					font-size: 14px;
+					line-height: 16px;
+					padding: 5px 0 0;
+				}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu .b-innovations-navigation-section-tertiary-menu-clause .b-innovations-navigation-section-tertiary-menu-clause-link {
+
+				line-height: 50px;
+			}
+
+				.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu .b-innovations-navigation-section-tertiary-menu-clause .b-innovations-navigation-section-tertiary-menu-clause-link .b-innovations-navigation-section-tertiary-menu-clause-link-contents {
+
+					font-size: 14px;
+					line-height: 16px;
+					padding: 5px 0 0;
+				}
+
 }
 
 @media screen and (max-width: 780px) {

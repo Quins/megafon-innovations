@@ -4,8 +4,13 @@ $(document).ready(function() {
 		initializeRotators();
 
 	$("[data-toggle]").toggles({
-		"innovations-tertiary-menu": {
-			toggleOnOutsideClick: false
+
+		"innovations-secondary-menu": {
+			activationCondition: function() {
+
+				return $(window).width() <= 1000;
+			}, 
+			toggleOnOutsideClick: true
 		}
 	});
 
@@ -479,7 +484,12 @@ function hurlRotator(rotatorID, articleCounter) {
 				toggleOnOutsideClick: false
 			}, options[toggle.descriptor]);
 
-			$("[data-toggle-target][data-toggle-target-descriptor='" + toggle.descriptor + "']").each( function(i) {
+			if (!options[toggle.descriptor].target)
+				toggle.targetDescriptor = toggle.descriptor;
+			else
+				toggle.targetDescriptor = options[toggle.descriptor].target;
+
+			$("[data-toggle-target][data-toggle-target-descriptor='" + toggle.targetDescriptor + "']").each( function(i) {
 
 				toggle.targets[i] = {
 
@@ -494,6 +504,9 @@ function hurlRotator(rotatorID, articleCounter) {
 			});
 
 			toggle.entity.click( function(event) {
+
+				if (options[toggle.descriptor].activationCondition && !options[toggle.descriptor].activationCondition())
+					return false;
 
 				event.preventDefault();
 				$(document).unbind("mouseup").unbind("touchend");
