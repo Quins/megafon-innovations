@@ -855,7 +855,7 @@ button::-moz-focus-inner {
 	}
 		.b-innovations-article .b-innovations-article-contents p+h2,
 		.b-innovations-article .b-innovations-article-contents ul+h2,
-		.b-innovations-article .b-innovations-article-contents h3+h2  {
+		.b-innovations-article .b-innovations-article-contents em+h2  {
 			padding-top: 20px;
 		}
 
@@ -866,7 +866,8 @@ button::-moz-focus-inner {
 		color: #333333;
 	}
 
-	.b-innovations-article .b-innovations-article-contents h3 {
+	.b-innovations-article .b-innovations-article-contents em {
+		display: block;
 		padding: 20px 0 20px 30px;
 		font-size: 19px;
 		line-height: 23px;
