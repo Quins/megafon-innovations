@@ -866,17 +866,23 @@ button::-moz-focus-inner {
 	}
 
 	.b-innovations-article .b-innovations-article-contents a {
+
 		color: #008cfc;
 		text-decoration: none;
-
+		border-bottom: 1px solid transparent;
 	}
-		.b-innovations-article .b-innovations-article-contents a:visited {
-			color: #0088cc;
-		}
+	.b-innovations-article .b-innovations-article-contents a:visited {
 
-		.b-innovations-article .b-innovations-article-contents a:hover {
-			color: #00985f;
-		}
+		color: #0088cc;
+	}
+	.b-innovations-article .b-innovations-article-contents a:hover {
+
+		border-bottom-color: #008cfc;
+	}
+	.b-innovations-article .b-innovations-article-contents a:visited:hover {
+
+		border-bottom-color: #0088cc;
+	}
 
 	.b-innovations-article .b-innovations-article-contents ul {
 		padding-left: 40px;
@@ -901,7 +907,52 @@ button::-moz-focus-inner {
 	.b-innovations-article .b-innovations-article-contents figure {
 		padding-bottom: 50px;
 		text-align: right;
-	}			
+	}
+
+	.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section {
+
+		width: 790px;
+		padding: 15px 0 40px;
+	}
+
+		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section .b-innovations-article-contents-statistics-section-legend-collection {
+
+			display: block;
+			font-size: 0;
+			line-height: 18px;
+			margin: 0;
+			padding: 0;
+			text-align: right;
+		}
+
+			.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section .b-innovations-article-contents-statistics-section-legend-collection .b-innovations-article-contents-statistics-section-legend-collection-clause {
+
+				display: inline-block;
+				font-size: 15px;
+				text-transform: uppercase;
+				color: #999;
+				padding: 0 0 0 30px;
+			}
+
+				.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section .b-innovations-article-contents-statistics-section-legend-collection .b-innovations-article-contents-statistics-section-legend-collection-clause:before {
+
+					content: "";
+					display: inline-block;
+					position: static;
+					width: 14px;
+					height: 14px;
+					margin: 0 8px -2px 0;
+					vertical-align: baseline;
+					background: #eee;
+				}
+				.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section .b-innovations-article-contents-statistics-section-legend-collection .b-innovations-article-contents-statistics-section-legend-collection-green-clause:before {
+
+					background: #2fb66f;
+				}
+				.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section .b-innovations-article-contents-statistics-section-legend-collection .b-innovations-article-contents-statistics-section-legend-collection-purple-clause:before {
+
+					background: #48296e;
+				}
 
 	.b-innovations-article .b-innovations-article-events-collection {
 

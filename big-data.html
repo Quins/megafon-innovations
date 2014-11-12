@@ -10,6 +10,8 @@
     <script type="text/javascript" src="js/html5ie.js"></script>
     <!--[if lt IE 9]><script src="js/mediaqueries.js"></script><![endif]-->
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
+    <!--[if IE 8]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
     <script type="text/javascript" src="js/common.js"></script>
 </head>
 <body class="p-innovations">
@@ -24,23 +26,24 @@
                     <li class="b-innovations-navigation-section-breadcrumbs-collection-clause">
                         <a href="#" class="b-innovations-navigation-section-breadcrumbs-collection-clause-link">Инновации и технологии</a>
                     </li>
-                    <li class="b-innovations-navigation-section-breadcrumbs-collection-clause">Наш подход</li>
+                    <li class="b-innovations-navigation-section-breadcrumbs-collection-clause">Инновационные сервисы Мегафона</li>
+                    <li class="b-innovations-navigation-section-breadcrumbs-collection-clause">Геоаналитика и большие данные</li>
                 </ul>
 
                 <ul class="b-innovations-navigation-section-secondary-menu">
-                    <li class="b-innovations-navigation-section-secondary-menu-clause b-innovations-navigation-section-secondary-menu-current-clause">
+                    <li class="b-innovations-navigation-section-secondary-menu-clause">
                         <a href="#" class="b-innovations-navigation-section-secondary-menu-clause-link"><span class="b-innovations-navigation-section-secondary-menu-clause-link-contents">Наш подход</span></a>
                     </li>
                     <li class="b-innovations-navigation-section-secondary-menu-clause">
                         <a href="#" class="b-innovations-navigation-section-secondary-menu-clause-link"><span class="b-innovations-navigation-section-secondary-menu-clause-link-contents">История инноваций</span></a>
                     </li>
-                    <li class="b-innovations-navigation-section-secondary-menu-clause b-innovations-navigation-section-secondary-menu-pervasive-clause" data-toggle-target="true" data-toggle-target-descriptor="innovations-tertiary-menu" data-toggle-target-class="b-innovations-navigation-section-secondary-menu-current-clause">
+                    <li class="b-innovations-navigation-section-secondary-menu-clause b-innovations-navigation-section-secondary-menu-pervasive-clause b-innovations-navigation-section-secondary-menu-current-clause" data-toggle-target="true" data-toggle-target-descriptor="innovations-tertiary-menu" data-toggle-target-class="b-innovations-navigation-section-secondary-menu-current-clause">
                         <a href="#" class="b-innovations-navigation-section-secondary-menu-clause-link" data-toggle="true" data-toggle-descriptor="innovations-tertiary-menu"><span class="b-innovations-navigation-section-secondary-menu-clause-link-contents">Инновационные сервисы Мегафона</span></a>
-                        <ul class="b-innovations-navigation-section-tertiary-menu g-hidden" data-toggle-target="true" data-toggle-target-descriptor="innovations-tertiary-menu" data-toggle-target-class="g-hidden">
+                        <ul class="b-innovations-navigation-section-tertiary-menu" data-toggle-target="true" data-toggle-target-descriptor="innovations-tertiary-menu" data-toggle-target-class="g-hidden">
                             <li class="b-innovations-navigation-section-tertiary-menu-clause">
                                 <a href="#" class="b-innovations-navigation-section-tertiary-menu-clause-link"><span class="b-innovations-navigation-section-tertiary-menu-clause-link-contents">4G+: самый быстрый в мире мобильный интернет</span></a>
                             </li>
-                            <li class="b-innovations-navigation-section-tertiary-menu-clause">
+                            <li class="b-innovations-navigation-section-tertiary-menu-clause b-innovations-navigation-section-tertiary-menu-current-clause">
                                 <a href="#" class="b-innovations-navigation-section-tertiary-menu-clause-link"><span class="b-innovations-navigation-section-tertiary-menu-clause-link-contents">Геоаналитика и большие данные</span></a>
                             </li>
                             <li class="b-innovations-navigation-section-tertiary-menu-clause">
@@ -76,7 +79,13 @@
                     
                     <h2>Цифры и факты</h2>
                     
-                    
+                    <div class="b-innovations-article-contents-statistics-section">
+                        <ul class="b-innovations-article-contents-statistics-section-legend-collection">
+                            <li class="b-innovations-article-contents-statistics-section-legend-collection-clause b-innovations-article-contents-statistics-section-legend-collection-purple-clause">Кривая 1</li>
+                            <li class="b-innovations-article-contents-statistics-section-legend-collection-clause b-innovations-article-contents-statistics-section-legend-collection-green-clause">Кривая 2</li>
+                        </ul>
+                        <canvas width="790" height="345" data-statistics-graph="true" data-statistics-graph-descriptor="double" data-statistics-graph-labels='["Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл"]' data-statistics-graph-data='[{ "label": "Кривая 2", "fillColor": "rgba(255,255,255,0)", "strokeColor": "#2fb66f", "pointColor": "#fff", "pointStrokeColor": "#2fb66f", "pointHighlightStroke": "#777c80", "data": ["28", "48", "40", "19", "86", "27", "90"] }, { "label": "Кривая 1", "fillColor": "rgba(255,255,255,0)", "strokeColor": "#48296e", "pointColor": "#fff", "pointStrokeColor": "#48296e", "pointHighlightStroke": "#777c80", "data": ["65", "59", "80", "81", "56", "55", "40"] }]'></canvas>
+                    </div>
 
                     <h2>Что такое геопространственная аналитика и большие данные?</h2>
 

@@ -8,8 +8,63 @@ $(document).ready(function() {
 			toggleOnOutsideClick: false
 		}
 	});
+
+	if ($("[data-statistics-graph]").length)
+		initializeStatisticsGraphs();
+
 });
 
+function initializeStatisticsGraphs() {
+	
+	$("[data-statistics-graph]").each(function () {
+	
+		var graph = $(this);
+		var graphContext = graph.get(0).getContext("2d");
+		var graphData = {
+		    labels: graph.data("statistics-graph-labels"),
+		    datasets: graph.data("statistics-graph-data")
+		};
+		
+		var graphOptions = {
+
+			scaleShowGridLines : true,
+			scaleGridLineColor : "#ebeced",
+			scaleGridLineWidth : 1,
+
+			bezierCurve : false,
+
+			pointDot : true,
+			pointDotRadius : 5,
+			pointDotStrokeWidth : 2,
+			pointHitDetectionRadius : 20,
+
+			datasetStroke : true,
+			datasetStrokeWidth : 2,
+			datasetFill : true,
+
+			scaleLineColor: "#777c80",
+			scaleLineWidth: 1,
+			scaleFontColor: "#999999",
+			scaleFontFamily: "'PFDinDisplayPro', sans-serif",
+			scaleFontSize: 15,
+
+			responsive: true,
+
+			showTooltips: false,
+
+			barValueSpacing: 6,
+			barShowStroke: false,
+			barDatasetSpacing: 0,
+			legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].lineColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+		};
+		
+		if(graph.data("statistics-graph-descriptor") == "single")
+			new Chart(graphContext).Bar(graphData, graphOptions);
+		else
+			new Chart(graphContext).Line(graphData, graphOptions);
+		
+	});
+}
 
 /* Rotators */
 var rotators = {};
