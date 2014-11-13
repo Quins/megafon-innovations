@@ -1744,7 +1744,41 @@ button::-moz-focus-inner {
 		line-height:18px;
 	}
 
+}
 
+@media screen and (max-width: 640px) {
+
+	.l-content-articles-section .b-innovations-article {
+
+		padding: 0;
+		margin: 0;
+	}
+
+	    .b-innovations-article .b-innovations-article-heading-section {
+
+	        margin: 0 0 40px;
+	        padding: 20px;
+	        min-height: 200px;
+	    }
+
+	        .b-innovations-article .b-innovations-article-heading-section .b-innovations-article-title {
+
+	            font-size: 30px;
+	            line-height: 36px;
+	        }
+
+	        .b-innovations-article .b-innovations-article-heading-section .b-innovations-article-description {
+
+	            font-size: 19px;
+	            line-height: 23px;
+	        }
+
+	    .b-innovations-article .b-innovations-article-contents h2 {
+
+	        padding-bottom: 20px;
+	        font-size: 16px;
+	        line-height: 20px;
+	    }
 
 
 }
