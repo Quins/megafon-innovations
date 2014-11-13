@@ -1826,7 +1826,7 @@ button::-moz-focus-inner {
 
 	    .b-innovations-article .b-innovations-article-heading-section {
 
-	        margin: 0 0 15px;
+	        margin: 0 -15px 15px;
 	        padding: 15px;
 	        min-height: 0;
 	        background-color: transparent;
@@ -2022,7 +2022,12 @@ button::-moz-focus-inner {
 
 		.b-innovations-article .b-innovations-article-contents figure {
 
+			margin: 0 -15px;
 			padding: 0 0 30px;
+	    }
+		.b-innovations-article .b-innovations-article-contents figure:last-child {
+
+			margin: 0 -15px -15px;
 	    }
 
 	   .b-innovations-article .b-innovations-article-trivias-collection .b-trivias-reduced-article {
