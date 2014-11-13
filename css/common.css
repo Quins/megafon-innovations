@@ -930,6 +930,7 @@ button::-moz-focus-inner {
 	.b-innovations-article .b-innovations-article-contents img {
 
 		max-width: 100%;
+		height: auto;
 	}
 
 	.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section {
@@ -997,10 +998,11 @@ button::-moz-focus-inner {
 				display: block;
 			}
 
-		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-video .b-innovations-article-contents-video iframe {
+		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-video iframe {
 
 			display: block;
 			margin: 0 auto;
+			max-width: 100%;
 		}
 
 	.b-innovations-article .b-innovations-article-events-collection {
@@ -1748,6 +1750,74 @@ button::-moz-focus-inner {
 
 @media screen and (max-width: 640px) {
 
+.l-content {
+
+	min-width: 290px;
+	padding: 0 15px;
+}
+
+.l-content .l-content-articles-section {
+
+	padding: 15px;
+}
+
+.b-innovations-navigation-section {
+
+	padding: 0 0 15px;
+}
+
+	.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection {
+
+		padding: 14px 52px 14px 20px;
+		line-height: 20px;
+		height: auto;
+	}
+
+		.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection .b-innovations-navigation-section-breadcrumbs-collection-clause:last-child {
+
+			white-space: normal;
+		}
+
+	.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu {
+
+		display: none;
+		position: static;
+		margin: -1px 0 0;
+	}
+	.b-innovations-navigation-section .b-innovations-navigation-section-secondary-opened-menu {
+
+		display: block;
+	}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-pervasive-clause:after {
+
+				top: 25px;
+			}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause .b-innovations-navigation-section-secondary-menu-clause-link {
+
+				line-height: 50px;
+			}
+
+				.b-innovations-navigation-section .b-innovations-navigation-section-secondary-menu .b-innovations-navigation-section-secondary-menu-clause .b-innovations-navigation-section-secondary-menu-clause-link .b-innovations-navigation-section-secondary-menu-clause-link-contents {
+
+					font-size: 14px;
+					line-height: 16px;
+					padding: 5px 0 0;
+				}
+
+			.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu .b-innovations-navigation-section-tertiary-menu-clause .b-innovations-navigation-section-tertiary-menu-clause-link {
+
+				line-height: 50px;
+			}
+
+				.b-innovations-navigation-section .b-innovations-navigation-section-tertiary-menu .b-innovations-navigation-section-tertiary-menu-clause .b-innovations-navigation-section-tertiary-menu-clause-link .b-innovations-navigation-section-tertiary-menu-clause-link-contents {
+
+					font-size: 14px;
+					line-height: 16px;
+					padding: 5px 0 0;
+				}
+
 	.l-content-articles-section .b-innovations-article {
 
 		padding: 0;
@@ -1780,6 +1850,148 @@ button::-moz-focus-inner {
 	        line-height: 20px;
 	    }
 
+		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-video {
+
+			margin: 0 -15px;
+		}
+
+
+	.b-innovations-article .b-innovations-article-events-collection {
+
+		padding: 0;
+	}
+
+		.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause {
+
+			position: relative;
+			height: auto;
+			line-height: 0;
+			margin: 0 0 20px;
+		}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause:before {
+
+				content: "";
+				display: block;
+				top: 50%;
+				bottom: -20px;
+				left: auto;
+				right: 9px;
+				width: 4px;
+				height: auto;
+				margin: 31px -2px 0 0;
+				z-index: 1;
+			}
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause:first-child:before {
+
+				content: "";
+				display: block;
+			}
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause:last-child:before {
+
+				content: none;
+				display: block;
+			}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause:after {
+
+				left: auto;
+				right: 9px;
+				margin: 11px -9px 0 0;
+			}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-title {
+
+				display: block;
+				text-align: left;
+				font-size: 16px;
+				line-height: 20px;
+				padding: 10px 0;
+				background: transparent;
+				border: none;
+				position: static;
+				margin: 0;
+			}
+
+				.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-title:before {
+
+					content: "";
+					display: block;
+					position: absolute;
+					top: 0;
+					bottom: 50%;
+					left: auto;
+					right: 9px;
+					width: 4px;
+					height: auto;
+					margin: 0 -2px -9px 0;
+					background: #d9d9d9;
+					z-index: 1;
+				}
+				.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause:first-child .b-innovations-article-events-collection-clause-title:before {
+
+					content: none;
+					display: none;
+				}
+
+			.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-description {
+
+				display: block;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				font-size: 0;
+				line-height: 0;
+				width: 100%;
+				padding: 0 40px 0 0;
+				margin: 0;
+			}
+
+				.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-description .b-innovations-article-events-collection-clause-description-inside {
+
+					font-size: 14px;
+					line-height: 17px;
+					padding: 10px 15px;
+					position: relative;
+				}
+
+					.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-even-clause .b-innovations-article-events-collection-clause-description .b-innovations-article-events-collection-clause-description-inside:before, 
+					.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-description .b-innovations-article-events-collection-clause-description-inside:before {
+
+						content: "";
+						display: block;
+						width: 13px;
+						height: 22px;
+						position: absolute;
+						top: 50%;
+						right: 0;
+						left: auto;
+						margin: -11px -13px 0 0;
+						background: url(../i/graphics.png) -95px -265px no-repeat;
+					}
+
+		.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section {
+
+			padding: 15px 0;
+		}
+
+			.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section .b-innovations-article-contents-statistics-section-legend-collection {
+
+				line-height: 16px;
+			}
+
+				.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section .b-innovations-article-contents-statistics-section-legend-collection .b-innovations-article-contents-statistics-section-legend-collection-clause {
+
+					font-size: 10px;
+					padding: 0 0 0 20px;
+				}
+
+					.b-innovations-article .b-innovations-article-contents .b-innovations-article-contents-statistics-section .b-innovations-article-contents-statistics-section-legend-collection .b-innovations-article-contents-statistics-section-legend-collection-clause:before {
+
+						width: 10px;
+						height: 10px;
+						margin: 0 4px -2px 0;
+					}
 
 }
 

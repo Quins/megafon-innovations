@@ -505,11 +505,10 @@ function hurlRotator(rotatorID, articleCounter) {
 
 			toggle.entity.click( function(event) {
 
-				if (options[toggle.descriptor].activationCondition && !options[toggle.descriptor].activationCondition())
+				if (toggle.properties.activationCondition && !toggle.properties.activationCondition())
 					return false;
 
 				event.preventDefault();
-				$(document).unbind("mouseup").unbind("touchend");
 
 				$.each(toggle.targets, function(i, e) {
 
@@ -526,6 +525,9 @@ function hurlRotator(rotatorID, articleCounter) {
 					if (toggle.properties.toggleOnOutsideClick) {
 
 						$(document).on("mouseup touchend", function (event) {
+
+							if (!toggle.on)
+								return false;
 
 							var outside = 0;
 
@@ -557,6 +559,7 @@ function hurlRotator(rotatorID, articleCounter) {
 
 				var e = $.Event( "toggle" );
 				e.state = state;
+				e.bubbles = false;
 
 				$("[data-toggle-target][data-toggle-target-descriptor='" + toggle.descriptor + "']").each(function() {
 
