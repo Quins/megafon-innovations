@@ -1530,12 +1530,28 @@ button::-moz-focus-inner {
 
 	.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection {
 
-		position: static;
+		position: relative;
+		top: auto;
+		left: auto;
 		border: 1px solid #c7c9ca;
 		background: #f2f2f2;
-		padding: 14px 20px;
+		padding: 14px 52px 14px 20px;
 		line-height: 20px;
 		height: 20px;
+	}
+	.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection:before {
+
+		content: "";
+		display: block;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 5px 4px;
+		border-color: #999 transparent transparent;
+		margin: -2px 0 0 -4px;
+		position: absolute;
+		top: 50%;
+		right: 23px;
 	}
 
 		.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection .b-innovations-navigation-section-breadcrumbs-collection-clause {
@@ -1677,14 +1693,17 @@ button::-moz-focus-inner {
     }
 
     .b-innovations-article .b-innovations-article-contents figure {
+
+		font-size: 0;
+		line-height: 0;
 		margin: 0 -20px;
-        padding-bottom: 40px;
+		padding: 0 0 40px;
     }
 
     .b-innovations-article .b-innovations-article-contents figure:last-child {
-    	padding-bottom: 0;
-    	font-size: 0;
-    	line-height: 0;
+
+		margin: 0 -20px -20px;
+		padding: 0;
     }
 
 }
