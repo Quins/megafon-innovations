@@ -912,13 +912,11 @@ button::-moz-focus-inner {
 		}
 			.b-innovations-article .b-innovations-article-contents ul > li:before {
 
+				content: "\2014";
+				display: block;
 				position: absolute;
-				content: "";
-				top: 10px;
+				top: 0;
 				left: -20px;
-				width: 16px;
-				height: 1px;
-				background-color: #333333;
 			}
 
 	.b-innovations-article .b-innovations-article-contents figure {
@@ -1097,7 +1095,6 @@ button::-moz-focus-inner {
 				line-height: 0;
 				width: 50%;
 				padding: 0 45px 0 0;
-				margin: 6px 0 0;
 			}
 
 				.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-clause .b-innovations-article-events-collection-clause-description .b-innovations-article-events-collection-clause-description-inside {
@@ -1121,13 +1118,13 @@ button::-moz-focus-inner {
 						position: absolute;
 						top: 50%;
 						right: 0;
-						margin: -11px -13px 0 0;
+						margin: -10px -13px 0 0;
 						background: url(../i/graphics.png) -95px -265px no-repeat;
 					}
 					.b-innovations-article .b-innovations-article-events-collection .b-innovations-article-events-collection-even-clause .b-innovations-article-events-collection-clause-description .b-innovations-article-events-collection-clause-description-inside:before {
 
 						right: auto;
-						margin: -11px 0 0 -13px;
+						margin: -10px 0 0 -13px;
 						left: 0;
 						background-position: -75px -265px;
 					}
@@ -1455,10 +1452,6 @@ button::-moz-focus-inner {
 
 			padding-bottom: 13px;
 		}
-			.b-innovations-article .b-innovations-article-contents ul > li:before {
-
-				width: 14px;
-			}
 
 	.b-innovations-article .b-innovations-article-contents p + h2,
 	.b-innovations-article .b-innovations-article-contents ul + h2,
@@ -1588,6 +1581,7 @@ button::-moz-focus-inner {
 		right: 0;
 		background: #fff;
 		border: 1px solid #c7c9ca;
+		z-index: 10;
 	}
 	.b-innovations-navigation-section .b-innovations-navigation-section-secondary-opened-menu {
 
@@ -1631,7 +1625,7 @@ button::-moz-focus-inner {
 
     .b-innovations-article .b-innovations-article-heading-section {
 
-        margin: 0 0 40px;
+        margin: 0 -20px 40px;
         padding: 20px;
         min-height: 200px;
     }
@@ -1682,10 +1676,6 @@ button::-moz-focus-inner {
 
             padding-bottom: 13px;
         }
-            .b-innovations-article .b-innovations-article-contents ul > li:before {
-
-                width: 14px;
-            }
 
     .b-innovations-article .b-innovations-article-contents p + h2,
     .b-innovations-article .b-innovations-article-contents ul + h2,
