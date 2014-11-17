@@ -415,16 +415,18 @@ button::-moz-focus-inner {
 		
 		.b-innovations-sectional-previews .b-innovations-medium-article .b-innovations-article-link:before {
 			
+			content:"";
 			position:absolute;
 			top:50%;
 			left:50%;
 			width:0;
 			height:0;
+			margin: 0;
 			border-radius:50%;
 			background:#4b2e7a;
-			content:"";
 			-webkit-transition:.4s;
 			-moz-transition:.4s;
+			-ms-transition:.4s;
 			transition:.4s;
 		}
 
@@ -432,8 +434,9 @@ button::-moz-focus-inner {
 	
 			width:250px;
 			height:250px;
-			left:-55px;
-			top:-115px;
+			left: 0%;
+			top: 0%;
+			margin: -115px 0 0 -55px;
 		}
 		
 		.b-innovations-sectional-previews .b-innovations-medium-article .b-innovations-article-link:hover .b-innovations-article-icon:before {
