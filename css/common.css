@@ -1374,7 +1374,7 @@ button::-moz-focus-inner {
 	.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection {
 
 		display: block;
-		padding: 0 20px;
+		padding: 0 20px 50px;
 		font-size: 0;
 		line-height: 0;
 	}
