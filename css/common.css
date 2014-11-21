@@ -797,7 +797,7 @@ button::-moz-focus-inner {
 				color: #00985f;
 			}
 
-.l-content-articles-section .b-innovations-article {
+.b-innovations-article {
 
 	display: inline-block;
 	vertical-align: top;
@@ -1274,6 +1274,251 @@ button::-moz-focus-inner {
 			margin-left:-22px;
 			background-position:-215px -180px;
 		}
+
+.b-internet-article {
+
+	display: inline-block;
+	vertical-align: top;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 36px 0 10px 336px;
+	margin: 0 0 0 -336px;
+	font-family: "PFDinDisplayPro";
+	color: #333;
+}
+
+	.b-internet-article .b-internet-article-heading-section {
+
+		margin-bottom: 35px;
+		padding: 65px 630px 180px 35px;
+		background-color: #00985f;
+		background-size: cover;
+		background-position: 50% 50%;
+		min-height: 195px;
+	}
+
+		.b-internet-article .b-internet-article-heading-section .b-internet-article-title {
+
+			padding: 0;
+			color: #fff;
+			font-family: "PFDinDisplayPro";
+			font-size: 60px;
+			line-height: 60px;
+		}
+
+	.b-internet-article .b-internet-article-contents {
+
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.b-internet-article .b-internet-article-contents h2 {
+
+		font-size: 24px;
+		line-height: 36px;
+		padding: 20px 0 15px;
+	}
+
+	.b-internet-article .b-internet-article-contents p {
+
+		padding: 0 0 10px;
+	}
+
+	.b-internet-article .b-internet-article-contents a {
+
+		color: #008bfb;
+		text-decoration: none;
+		border-bottom: 1px solid #008bfb;
+	}
+
+	.b-internet-article .b-internet-article-contents a:hover {
+
+		border-bottom-color: transparent;
+	}
+
+	.b-internet-article .b-internet-article-contents ul {
+
+		padding: 20px 0;
+	}
+
+		.b-internet-article .b-internet-article-contents ul > li {
+
+			padding: 0 0 10px 30px;
+			position: relative;
+		}
+
+			.b-internet-article .b-internet-article-contents ul > li:before {
+
+				content: "\2013";
+				display: inline-block;
+				width: 30px;
+				text-align: center;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+	.b-internet-article .b-internet-article-contents .b-internet-article-contents-menu {
+
+		color: #999;
+		padding: 0;
+	}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-menu > li:before {
+
+				color: #333;
+			}
+
+	.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection {
+
+		display: block;
+		padding: 0 20px;
+		font-size: 0;
+		line-height: 0;
+	}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-clause {
+
+			display: inline-block;
+			vertical-align: top;
+			font-size: 16px;
+			line-height: 20px;
+			padding: 0;
+		}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-clause:before {
+
+				content: none;
+				display: none;
+			}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-clause .b-internet-article-contents-schematics-collection-clause-picture {
+
+				display: block;
+				text-align: center;
+			}
+
+				.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-clause .b-internet-article-contents-schematics-collection-clause-picture .b-internet-article-contents-schematics-collection-clause-picture-entity {
+
+					display: inline-block;
+					vertical-align: middle;
+				}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-clause .b-internet-article-contents-schematics-collection-clause-title {
+
+				text-align: center;
+				padding: 20px 0 0;
+			}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-antenna-clause {}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-antenna-clause .b-internet-article-contents-schematics-collection-clause-picture {
+
+				width: 138px;
+				height: 138px;
+				line-height: 138px;
+				border: 1px solid #1fa572;
+				border-radius: 70px;
+				overflow: hidden;
+			}
+
+				.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-antenna-clause .b-internet-article-contents-schematics-collection-clause-picture .b-internet-article-contents-schematics-collection-clause-picture-entity {
+
+					max-width: 100%;
+				}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-cabels-clause {
+
+			width: 260px;
+		}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-cabels-clause .b-internet-article-contents-schematics-collection-clause-picture {
+
+				height: 140px;
+				line-height: 140px;
+				position: relative;
+			}
+
+				.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-cabels-clause .b-internet-article-contents-schematics-collection-clause-picture:before {
+
+					content: "";
+					display: block;
+					position: absolute;
+					height: 2px;
+					margin: -1px 60px 0 0;
+					top: 50%;
+					left: 0;
+					right: 50%;
+					background: #1fa572;
+				}
+
+				.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-cabels-clause .b-internet-article-contents-schematics-collection-clause-picture:after {
+
+					content: "";
+					display: block;
+					position: absolute;
+					height: 2px;
+					margin: -1px 0 0 60px;
+					top: 50%;
+					left: 50%;
+					right: 0;
+					background: #1fa572;
+				}
+
+				.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-cabels-clause .b-internet-article-contents-schematics-collection-clause-picture .b-internet-article-contents-schematics-collection-clause-picture-entity {
+
+					max-width: 100%;
+				}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-cabels-clause .b-internet-article-contents-schematics-collection-clause-title {
+
+				width: 180px;
+				margin: 0 auto;
+				text-align: left;
+			}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-router-clause {}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-router-clause .b-internet-article-contents-schematics-collection-clause-picture {
+
+				width: 138px;
+				height: 138px;
+				line-height: 138px;
+				border: 1px solid #1fa572;
+				border-radius: 70px;
+				overflow: hidden;
+			}
+
+				.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-router-clause .b-internet-article-contents-schematics-collection-clause-picture .b-internet-article-contents-schematics-collection-clause-picture-entity {
+
+					max-width: 100%;
+				}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause {
+
+			padding: 0 0 0 50px;
+			width: 374px;
+		}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause .b-internet-article-contents-schematics-collection-clause-picture {
+
+				height: 140px;
+				line-height: 140px;
+				text-align: left;
+			}
+
+				.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause .b-internet-article-contents-schematics-collection-clause-picture .b-internet-article-contents-schematics-collection-clause-picture-entity {
+
+					max-width: 100%;
+				}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause .b-internet-article-contents-schematics-collection-clause-title {
+
+				text-align: left;
+			}
+
 
 @media screen and (max-width: 1520px) {
 	
