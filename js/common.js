@@ -505,8 +505,6 @@ function hurlRotator(rotatorID, articleCounter) {
 
 			toggle.entity.click( function(event) {
 
-				console.log("chachacha");
-
 				if (toggle.properties.activationCondition && !toggle.properties.activationCondition())
 					return false;
 
@@ -522,7 +520,6 @@ function hurlRotator(rotatorID, articleCounter) {
 					emittoggle(false);
 					if (toggle.properties.toggleOnOutsideClick) {
 
-						console.log("unbind");
 						$(document).unbind("mouseup").unbind("touchend");
 					}
 				} else {
@@ -555,14 +552,11 @@ function hurlRotator(rotatorID, articleCounter) {
 									e.entity.toggleClass(e.toggleClass);
 								});
 								emittoggle(false);
-								console.log("unbind");
 								$(document).unbind("mouseup").unbind("touchend");
 							}
 						});
 					}
 				}
-
-				console.log(toggle);
 			});
 
 			function emittoggle(state) {
