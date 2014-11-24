@@ -160,6 +160,7 @@ button::-moz-focus-inner {
 		font-size: 0;
 		line-height: 0;
 		max-width: 1340px;
+		white-space: nowrap;
 	}
 	
 		.l-content .l-content-articles-section a, 
@@ -644,6 +645,7 @@ button::-moz-focus-inner {
 	width: 306px;
 	padding: 0 30px 30px 0;
 	position: relative;
+	white-space: normal;
 }
 
 	.b-innovations-navigation-section .b-innovations-navigation-section-breadcrumbs-collection {
@@ -808,6 +810,7 @@ button::-moz-focus-inner {
 	padding: 36px 0 10px 336px;
 	margin: 0 0 0 -336px;
 	font-family: "PFDinDisplayPro";
+	white-space: normal;
 }
 
 	.b-innovations-article .b-innovations-article-heading-section {
@@ -1287,6 +1290,7 @@ button::-moz-focus-inner {
 	margin: 0 0 0 -336px;
 	font-family: "PFDinDisplayPro";
 	color: #333;
+	white-space: normal;
 }
 
 	.b-internet-article .b-internet-article-heading-section {
@@ -1581,7 +1585,7 @@ button::-moz-focus-inner {
 
 				.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-column {
 					
-					padding: 20px 0 20px 20px;
+					padding: 20px;
 				}
 
 				.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-column {
@@ -1610,10 +1614,6 @@ button::-moz-focus-inner {
 					width: 47%;
 				}
 
-				.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-body-lastrow .b-internet-article-table-column {
-
-					padding: 0 0 20px 20px;
-				}
 				.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-column .b-internet-article-table-column-link {
 
 					display: inline;
@@ -1669,25 +1669,6 @@ button::-moz-focus-inner {
 		
 		padding:0 5px;
 	}
-
-.b-internet-article {
-
-	padding: 36px 0 10px 240px;
-	margin: 0 0 0 -240px;
-}
-
-	.b-internet-article .b-internet-article-heading-section {
-
-		margin-bottom: 25px;
-		padding: 50px 450px 130px 25px;
-		min-height: 135px;
-	}
-
-		.b-internet-article .b-internet-article-heading-section .b-internet-article-title {
-
-			font-size: 43px;
-			line-height: 43px;
-		}
 
 	.b-internet-article .b-internet-article-contents {
 
@@ -2040,15 +2021,44 @@ button::-moz-focus-inner {
 					padding: 18px 14px;
 				}
 
-		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-head .b-internet-article-table-column {
+					.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-head .b-internet-article-table-column {
 
 						font-size: 16px;
 						line-height: 20px;
 					}
 
+.b-internet-navigation-section {
+
+	width: 210px;
+}
+
+	.b-internet-navigation-section .b-innovations-navigation-section-breadcrumbs-collection {
+
+		left: 240px;
+	}
+
+.b-internet-article {
+
+	padding: 36px 0 10px 240px;
+	margin: 0 0 0 -240px;
+}
+
+	.b-internet-article .b-internet-article-heading-section {
+
+		margin-bottom: 25px;
+		padding: 50px 450px 130px 25px;
+		min-height: 135px;
+	}
+
+		.b-internet-article .b-internet-article-heading-section .b-internet-article-title {
+
+			font-size: 43px;
+			line-height: 43px;
+		}
+
 		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-column {
 			
-			padding: 18px 0 18px 18px;
+			padding: 18px;
 		}
 
 		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-column,
@@ -2289,6 +2299,11 @@ button::-moz-focus-inner {
 			color: #00985f;
 		}
 
+			.b-internet-article .b-internet-article-contents  .b-internet-article-threecolumn-table {
+
+				width: auto;
+				max-width: 500px;
+			}
 }
 
 @media screen and (max-width: 780px) {
@@ -2779,10 +2794,18 @@ button::-moz-focus-inner {
 
 			width: 100%;
 	   }
-	.b-internet-article {
-		padding: 0;
+
+.b-internet-article {
+
+	padding: 0;
+	margin: 0;
+}
+
+	.b-internet-article .b-internet-article-heading-section {
+
 		margin: 0;
 	}
+
 	    .b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-head {
 
 			display: none;
@@ -2806,7 +2829,7 @@ button::-moz-focus-inner {
 
 		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-last-column,
 		.b-internet-article .b-internet-article-contents .b-internet-article-threecolumn-table .b-internet-article-table-column {
-			padding: 15px 0 15px 15px;
+			padding: 15px;
 		}
 
 		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-column-hide-description {
