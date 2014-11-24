@@ -1622,6 +1622,14 @@ button::-moz-focus-inner {
 					border-bottom: 1px solid #008bfb;
 				}
 
+				.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-column-hide-description {
+					
+					display: none;
+					font-size: 10px;
+					line-height: 14px;
+					color: #999999;
+				}
+
 				.b-internet-article .b-internet-article-contents .b-inernet-article-contents-note {
 					
 					padding: 0;
@@ -2592,6 +2600,67 @@ button::-moz-focus-inner {
 
 			width: 100%;
 	   }
+	.b-internet-article {
+		padding: 0;
+		margin: 0;
+	}
+	    .b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-head {
+
+			display: none;
+		}
+		
+		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-device-column {
+
+			width: 42%;
+			padding: 15px 0 0 15px;
+			vertical-align: top;
+		}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-collapse-column {
+
+			display: inline-block;
+			padding: 15px 0 0 15px;
+			box-sizing: border-box;
+			width: 100%;
+			border: none;
+		}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-last-column,
+		.b-internet-article .b-internet-article-contents .b-internet-article-threecolumn-table .b-internet-article-table-column {
+			padding: 15px 0 15px 15px;
+		}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-column-hide-description {
+			
+			display: block;
+			padding: 5px 0 0 0;
+		}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-threecolumn-table {
+
+			width: 100%;
+		}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-threecolumn-table .b-internet-article-table-body .b-internet-article-table-device-column {
+
+				display: none;
+			}
+			.b-internet-article .b-internet-article-contents .b-internet-article-threecolumn-table .b-internet-article-table-body .b-internet-article-table-router-column {
+
+				width: 56%;
+			}
+
+			.b-internet-article .b-internet-article-contents .b-internet-article-threecolumn-table .b-internet-article-table-body .b-internet-article-table-featured-column {
+
+				width: 46%;
+			}
+		.b-internet-article .b-internet-article-contents .b-inernet-article-contents-note {
+
+			font-size: 10px;
+			line-height: 12px;
+		}
+
+
 }
 
 
