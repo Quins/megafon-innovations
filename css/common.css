@@ -820,17 +820,73 @@ button::-moz-focus-inner {
 		color: #fff;
 		min-height: 230px;
 	}
+	.b-innovations-article .b-innovations-article-heading-darkbg-section {
+
+		background-size: cover;
+		background-position: 50% 50%;
+		position: relative;
+	}
+		.b-innovations-article .b-innovations-article-heading-darkbg-section:before {
+
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background: rgba(0,0,0,.5);
+		}
+	.b-innovations-article .b-innovations-article-heading-lightbg-section {
+
+		background-size: cover;
+		background-position: 50% 50%;
+		position: relative;
+	}
+		.b-innovations-article .b-innovations-article-heading-lightbg-section:before {
+
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background: rgba(255,255,255,.5);
+		}
+	.b-innovations-article .b-innovations-article-heading-greenbg-section {
+
+		background-size: cover;
+		background-position: 50% 50%;
+		position: relative;
+	}
+		.b-innovations-article .b-innovations-article-heading-greenbg-section:before {
+
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background: rgba(0,132,85,.7);
+		}
 
 		.b-innovations-article .b-innovations-article-heading-section .b-innovations-article-title {
 			padding-bottom: 30px;
 			font-family: "PFDinDisplayPro Light";
 			font-size: 52px;
 			line-height: 55px;
+			position: relative;
+		}
+		.b-innovations-article .b-innovations-article-heading-lightbg-section .b-innovations-article-title {
+			color: #00985f;
 		}
 
 		.b-innovations-article .b-innovations-article-heading-section .b-innovations-article-description {			
 			font-size: 30px;
 			line-height: 36px;
+			position: relative;
+		}
+		.b-innovations-article .b-innovations-article-heading-lightbg-section .b-innovations-article-description {			
+			color: #000;
 		}
 	
 	.b-innovations-article .b-innovations-article-trivias-collection {
@@ -1621,6 +1677,10 @@ button::-moz-focus-inner {
 					line-height: 22px;
 					border-bottom: 1px solid #008bfb;
 				}
+				.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-column .b-internet-article-table-column-link:hover {
+
+					border-bottom-color: transparent;
+				}
 
 				.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-column-hide-description {
 					
@@ -1820,7 +1880,7 @@ button::-moz-focus-inner {
 		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause {
 
 			padding: 0 0 0 40px;
-			width: 200px;
+			width: 300px;
 		}
 
 			.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause .b-internet-article-contents-schematics-collection-clause-picture {
@@ -1833,6 +1893,15 @@ button::-moz-focus-inner {
 
 					width: 146px;
 				}
+
+}
+
+@media screen and (max-width: 1210px) {
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause {
+
+			width: 250px;
+		}
 
 }
 
@@ -2067,6 +2136,12 @@ button::-moz-focus-inner {
 			font-size: 14px;
 			line-height: 19px;
 		}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause {
+
+			width: 190px;
+		}
+
 }
 
 
@@ -2304,6 +2379,21 @@ button::-moz-focus-inner {
 				width: auto;
 				max-width: 500px;
 			}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause {
+
+			width: 300px;
+		}
+
+}
+
+@media screen and (max-width: 860px) {
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause {
+
+			width: 220px;
+		}
+
 }
 
 @media screen and (max-width: 780px) {
@@ -2341,6 +2431,11 @@ button::-moz-focus-inner {
 		font-size:14px;
 		line-height:18px;
 	}
+
+		.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause {
+
+			width: 185px;
+		}
 
 }
 
@@ -2504,6 +2599,7 @@ button::-moz-focus-inner {
 				.b-internet-article .b-internet-article-contents .b-internet-article-contents-schematics-collection .b-internet-article-contents-schematics-collection-device-clause .b-internet-article-contents-schematics-collection-clause-picture .b-internet-article-contents-schematics-collection-clause-picture-entity {
 
 					width: 85px;
+					margin: 0 0 0 -20px;
 				}
 
 }
@@ -2806,25 +2902,63 @@ button::-moz-focus-inner {
 		margin: 0;
 	}
 
+    .b-internet-article .b-internet-article-contents .b-internet-article-table {
+
+		display: block;
+		position: relative;
+	}
+
 	    .b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-head {
 
 			display: none;
 		}
 		
+	    .b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-row {
+
+	    	display: block;
+	    	width: 100%;
+	    	float: left;
+	    }
+
+	    .b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body {
+
+			display: block;
+		}
+
+		    .b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body:after {
+
+				content: "";
+				display: block;
+				height: 0;
+				overflow: hidden;
+				clear: both;
+			}
+
 		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-device-column {
 
-			width: 42%;
-			padding: 15px 0 0 15px;
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 50%;
+			box-sizing: border-box;
+			padding: 15px;
 			vertical-align: top;
+			border: none;
+			border-right: 1px solid #d8d8d8;
 		}
 
 		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-collapse-column {
 
-			display: inline-block;
-			padding: 15px 0 0 15px;
+			display: block;
+			padding: 15px;
 			box-sizing: border-box;
-			width: 100%;
+			width: 50%;
+			margin: 0 0 0 50%;
 			border: none;
+			position: relative;
+			float: left;
 		}
 
 		.b-internet-article .b-internet-article-contents .b-internet-article-table .b-internet-article-table-body .b-internet-article-table-last-column,
