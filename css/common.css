@@ -300,6 +300,7 @@ button::-moz-focus-inner {
 	.b-innovations-sectional-previews .b-innovations-article {
 		
 		position:relative;
+		margin: 0;
 		box-sizing:border-box;
 	}
 	
