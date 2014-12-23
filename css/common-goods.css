@@ -381,3 +381,65 @@
 	.b-goods-article-button:hover {
 		background-color: #5c0a96;
 	}
+
+@media screen and (max-width: 1160px) {
+
+	.b-goods-article-controls-section-link {
+
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.b-goods-article-description {
+
+		padding: 0 25px 0 0;
+		width: 250px;
+	}
+		.b-goods-article-description-tags-collection {
+
+			margin: 0 -3px 20px;
+		}
+			.b-goods-article-description-tags-collection-clause {
+
+				margin: 3px;
+				font-size: 11px;
+			}
+
+	.b-goods-article-contents {
+
+		margin: 0 -320px 0 -275px;
+		padding: 0 350px 0 275px;
+	}
+		.b-goods-article-contents-title {
+
+			padding: 0 0 25px;
+			font-size: 40px;
+			line-height: 48px;
+		}
+			.b-goods-article-contents-paragraph {
+
+				padding: 0 0 30px;
+				font-size: 14px;
+				line-height: 17px;
+			}
+	.b-goods-article-tinting-section-title,
+	.b-goods-article-capabilities-collection-title {
+
+				padding: 0 0 25px;
+				font-size: 21px;
+				line-height: 25px;
+	}
+	.b-goods-article-capabilities-collection-title {
+
+		padding: 0 0 10px;
+	}
+		.b-goods-article-capabilities-collection-clause-title,
+		.b-goods-article-capabilities-collection-clause-description {
+
+			display: inline;
+			font-size: 14px;
+			line-height: 17px;
+
+
+		}
+}
+
