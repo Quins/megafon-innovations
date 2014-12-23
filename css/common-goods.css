@@ -1,0 +1,383 @@
+.b-goods-article-controls-section {
+
+	padding: 0 0 30px;
+}
+
+	.b-goods-article-controls-section-link,
+	.b-goods-article-link {
+
+		font-family: "PFDinDisplayPro";
+		font-size: 16px;
+		line-height:20px;
+		color: #008bfb;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+		.b-goods-article-controls-section-link:hover,
+		.b-goods-article-link:hover {
+
+			border-bottom: 1px solid #008bfb;
+		}
+
+		.b-goods-article-controls-section-back-link {
+
+			position: relative;
+			margin: 0 0 0 30px;
+		}
+			.b-goods-article-controls-section-back-link:before {
+
+				position: absolute;
+				content: "";
+				top: 50%;
+				margin-top: -3px;
+				left: -30px;
+				width: 16px;
+				height: 7px;
+				background: transparent url('../goods/i/graphics-goods.png') no-repeat -1px -1px;
+			}
+.b-goods-article-description {
+
+	display: inline-block;
+	padding: 0 30px 30px 0;
+	width: 360px;
+	vertical-align: top;
+	white-space: normal;
+
+}
+	.b-goods-article-description-tags-collection {
+
+		margin: 0 0 30px -5px;
+	}
+		.b-goods-article-description-tags-collection-clause {
+
+			display: inline-block;
+			margin: 0 5px;
+			padding: 4px 10px;
+			font-family: "PFDinDisplayPro Light";
+			font-size: 16px;
+			color: #fff;
+			line-height: normal;
+			text-transform: uppercase;
+			background-color: #000;
+		}
+			.b-goods-article-description-tags-collection-goodsofday-clause {
+
+				background-color: #f68c45;
+			}
+			.b-goods-article-description-tags-collection-new-clause {
+
+				background-color: #00adef;
+			}
+			.b-goods-article-description-tags-collection-offer-clause {
+
+				background-color: #57068c;
+			}
+			.b-goods-article-description-tags-collection-4g-clause {
+
+				background-color: #00985f;
+			}
+
+	.b-goods-article-picture {
+
+		display: inline-block;
+		padding: 0 0 30px;
+		width: 100%;
+		text-align: center;
+	}
+		.b-goods-article-pictures-previews {
+
+			position: relative;
+		}
+			.b-goods-article-pictures-offers-description {
+
+				position: absolute;
+				top: -3px;
+				right: 40px;
+				padding: 11px;
+				width: 50px;
+				font-family: "PFDinDisplayPro";
+				font-size: 14px;
+				line-height: normal;
+				color: #fff;
+				text-align: center;
+				background-color: #f68c45;
+				border-radius: 50%;
+			}
+		.b-goods-article-picture-entity {
+
+			max-width: 100%;
+		}
+		.b-goods-article-pictures-rotated-previews-pagination-collection {
+
+			margin: 0 0 0 -7px;
+
+		}
+			.b-goods-article-pictures-rotated-previews-pagination-collection-clause {
+
+				display: inline-block;
+				margin: 0 7px;
+				border: 1px solid #d9d9d9;
+				vertical-align: top;
+			}
+				.b-goods-article-pictures-rotated-previews-pagination-collection-clause:hover {
+
+					box-shadow: 0 2px 8px rgba(0,0,0,.15);
+				}
+				.b-goods-article-pictures-rotated-previews-pagination-collection-clause-link {
+
+					position: relative;
+					display: block;
+					text-align: center;
+					width: 58px;
+					height: 58px;
+					line-height: 64px;
+				}
+					.b-goods-article-pictures-rotated-previews-pagination-collection-clause-link-entity {
+
+						display: inline-block;
+						vertical-align: middle;
+					}
+				.b-goods-article-pictures-rotated-previews-pagination-collection-current-clause {
+
+					border-color: #00985f;
+				}
+		.b-goods-article-pictures-rotated-dots-pagination-collection {
+			text-align: center;
+		}
+			.b-goods-article-pictures-rotated-dots-pagination-collection-clause {
+
+				display: inline-block;
+				margin: 0 8px;
+				border-radius: 5px;
+				border: 1px solid #00985f;
+				cursor: pointer;
+			}
+				.b-goods-article-pictures-rotated-dots-pagination-collection-clause-link {
+
+					display: block;
+					background-color: transparent;
+					width: 10px;
+					height: 10px;
+				}
+				.b-goods-article-pictures-rotated-dots-pagination-collection-current-clause {
+
+					background-color: #00985f;
+				}
+					.b-goods-article-pictures-rotated-dots-pagination-collection-clause-link:hover {
+
+						background-color: #00985f;
+						opacity: .6;
+					}
+
+
+.b-goods-article-contents {
+
+	display: inline-block;
+	margin: 0 -320px 0 -390px;
+	padding: 0 350px 0 390px;
+	width: 100%;
+	vertical-align: top;
+	white-space: normal;
+	box-sizing: border-box;
+}
+	.b-goods-article-contents-title {
+
+		padding: 0 0 35px;
+		font-family: "PFDinDisplayPro Light";
+		font-size: 52px;
+		line-height: 55px;
+		color: #00985f;
+	}
+		.b-goods-article-contents-paragraph {
+
+			padding: 0 0 40px;
+			font-family: "PFDinDisplayPro";
+			font-size: 16px;
+			line-height: 20px;
+			color: #333;
+		}
+	.b-goods-article-tinting-section {
+
+	}
+		.b-goods-article-tinting-section-title,
+		.b-goods-article-capabilities-collection-title {
+
+			padding: 0 0 30px;
+			font-family: "PFDinDisplayPro";
+			font-size: 30px;
+			line-height: 36px;
+			color: #333;
+		}
+
+		.b-goods-article-tinting-section-contents-colors-collection {
+
+			padding: 0 45px 0 0;
+			margin: 0 -14px 15px -7px;
+		}
+			.b-goods-article-tinting-section-contents-colors-collection-clause {
+
+				position: relative;
+				display: inline-block;
+				margin: 0 14px 28px;
+				width: 36px;
+				height: 36px;
+				cursor: pointer;
+			}
+				.b-goods-article-tinting-section-contents-colors-collection-current-clause:before,
+				.b-goods-article-tinting-section-contents-colors-collection-clause:hover:before {
+
+					position: absolute;
+					content: '';
+					top: -7px;
+					left: -7px;
+					width: 48px;
+					height: 48px;
+					border-radius: 24px;
+				}
+				.b-goods-article-tinting-section-contents-colors-collection-clause:hover:before {
+
+					border: 1px solid #d9d9d9;
+				}
+				.b-goods-article-tinting-section-contents-colors-collection-current-clause:before,
+				.b-goods-article-tinting-section-contents-colors-collection-current-clause:hover:before {
+
+					border: 1px solid #00985f;
+				}
+				.b-goods-article-tinting-section-contents-colors-collection-clause-picture {
+
+					max-width: 36px;
+					border-radius: 18px;
+				}
+	.b-goods-article-capabilities-collection {
+		padding: 0 0 10px;
+	}
+		.b-goods-article-capabilities-collection-title {
+
+			padding: 0 0 20px;
+		}
+
+		.b-goods-article-capabilities-collection-clause {
+
+			position: relative;
+			padding: 0 0 0 40px;
+		}
+			.b-goods-article-capabilities-collection-clause:before {
+
+				position: absolute;
+				content: '';
+				top: 50%;
+				left: 16px;
+				margin-top: -5px;
+				width: 12px;
+				height: 10px;
+				background: transparent url(../goods/i/graphics-goods.png) no-repeat -19px -1px;
+			}
+			.b-goods-article-capabilities-collection-clause-title,
+			.b-goods-article-capabilities-collection-clause-description {
+
+				display: inline-block;
+				font-family: "PFDinDisplayPro";
+				font-size: 16px;
+				line-height: 30px;
+				color: #333;
+			}
+			.b-goods-article-capabilities-collection-clause-title {
+
+				padding: 0 5px 0 0;
+			}
+
+.b-goods-article-buy-section {
+
+	display: inline-block;
+	width: 320px;
+	vertical-align: top;
+	background-color: #e5e5e5;
+	padding: 30px;
+	box-sizing: border-box;
+	white-space: normal;
+}
+	.b-goods-article-buy-section-costs-collection {
+
+	}
+		.b-goods-article-buy-section-costs-collection-clause {
+
+			position: relative;
+			margin: 0 0 20px;
+		}
+			.b-goods-article-buy-section-costs-collection-total-clause {
+
+				margin: 0 0 20px;
+				padding: 20px 0 0;
+				border-top: 2px solid #bfbfbf;
+			}
+				.b-goods-article-buy-section-costs-collection-clause-title {
+
+					display: inline-block;
+					max-width: 155px;
+					font-family: "PFDinDisplayPro";
+					font-size: 16px;
+					line-height: 20px;
+					color: #333;
+					vertical-align: bottom;
+				}
+				.b-goods-article-buy-section-costs-collection-clause-description {
+
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					font-family: "PFDinDisplayPro";
+					font-size: 24px;
+					line-height: 20px;
+					height: inherit;
+					color: #333;
+					vertical-align: bottom;
+				}
+					.b-goods-article-buy-section-costs-collection-clause-currency-description {
+
+						position: relative;
+						text-transform: uppercase;
+					}
+						.b-goods-article-buy-section-costs-collection-clause-currency-description:before {
+
+							position: absolute;
+							content: '\2013';
+							left: 0;
+							top: 25%;
+						}
+	.b-goods-article-buy-section-delivery-collection {
+
+		padding: 0 0 0 20px;
+	}
+		.b-shops-article-buy-section-delivery-collection-clause {
+
+			position: relative;
+			margin: 0 0 10px;
+			font-family: "PFDinDisplayPro";
+			font-size: 16px;
+			line-height: 20px;
+			color: #333;
+		}
+			.b-shops-article-buy-section-delivery-collection-clause:before {
+
+				position: absolute;
+				content: '\2014';
+				left: -20px;
+				top: 0;
+			}
+
+.b-goods-article-button {
+
+	display: inline-block;
+	margin: 0 0 15px;
+	padding: 14px 50px;
+	font-family: "PFDinDisplayPro Light";
+	font-size: 19px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.75);
+	background-color: #57068c;
+}
+	.b-goods-article-button:hover {
+		background-color: #5c0a96;
+	}
