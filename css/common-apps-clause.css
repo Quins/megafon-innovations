@@ -1,0 +1,21 @@
+.b-apps-article-title {
+
+	padding: 0 0 30px;
+	font-family: "PFDinDisplayPro";
+	font-size: 60px;
+	line-height: normal;
+	color: #00985f;
+}
+
+.b-apps-article-preamble-section {
+
+	padding: 0 10% 0 285px;
+	background-color: #f3f3f3;
+}
+	.b-apps-article-preamble-section-paragraph {
+
+		font-family: "PFDinDisplayPro";
+		font-size: 16px;
+		line-height: 20px;
+		color: #333;
+	}
